@@ -1,0 +1,12 @@
+import { TeacherRegistration } from "./Teacher";
+import { StudentRegistration } from "./Student";
+let T1 = new TeacherRegistration("Aliza",23, "Cambridge",0.5);
+console.log(T1);
+let S1 = new StudentRegistration("Ali",12, 6);
+console.log(S1);
+let T2 = new TeacherRegistration("Aiza",23, "Cambridge",0.5);
+console.log(T2);
+let S2 = new StudentRegistration("Bisma",12, 6);
+console.log(S2);
+console.log(StudentRegistration);
+console.log(TeacherRegistration);

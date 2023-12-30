@@ -1,0 +1,21 @@
+{
+  "name": "@fuzza-raza/countdowntimer",
+  "version": "1.0.2",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "date-fns": "^2.30.0",
+    "inquirer": "^9.2.11"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.6"
+  },
+  "description": "You can set time and program will do the countdown for you."
+}

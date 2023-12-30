@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const Teacher_1 = require("./Teacher");
+const Student_1 = require("./Student");
+let T1 = new Teacher_1.TeacherRegistration("Aliza", 23, "Cambridge", 0.5);
+console.log(T1);
+let S1 = new Student_1.StudentRegistration("Ali", 12, 6);
+console.log(S1);
+let T2 = new Teacher_1.TeacherRegistration("Aiza", 23, "Cambridge", 0.5);
+console.log(T2);
+let S2 = new Student_1.StudentRegistration("Bisma", 12, 6);
+console.log(S2);
+console.log(Student_1.StudentRegistration);
+console.log(Teacher_1.TeacherRegistration);
